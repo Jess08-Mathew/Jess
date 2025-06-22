@@ -12,7 +12,7 @@ Original file is located at
 from langchain_groq import ChatGroq
 llm = ChatGroq(
     temperature = 0,
-    groq_api_key = "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",
+    groq_api_key = ".............................................................",
     model = "llama-3.3-70b-versatile"
 )
 result = llm.invoke("Who is Lord Ram?")
